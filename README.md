@@ -64,7 +64,12 @@ hmm-utils uses kotab as  intermediate file format. kotab includes query coverage
 
 the default parameters of  kofam-search is the same way with kofanscan. (evalue 10, threshold scale 1.0).
 
-
+### download db
+   
+    wget ftp://ftp.genome.jp/pub/db/kofam/profiles.tar.gz
+    wget ftp://ftp.genome.jp/pub/db/kofam/ko_list.gz
+    tar xzvf profiles.tar.gz
+    gunzip ko_list.gz
 
 
   [1]: https://www.genome.jp/tools/kofamkoala/
